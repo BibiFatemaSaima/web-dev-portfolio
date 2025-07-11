@@ -1,0 +1,92 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* header */
+.header{
+    background-image: url('../images/Hero-bg.png');
+}
+/* nav styles */
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+
+/* shared style */
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn-primary{
+    border: none;
+}
+.secondary-bg{
+    background-color: #252432;
+}
+nav ul{
+    display: flex;
+}
+.nav-title{
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.section-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+
+}
+.section-description{
+    font-size: 24px;
+    color: #252432;
+    background-color: #FFFFFF;
+}
+
+
+
+
+nav ul li {
+    list-style: none;
+}
+/* banner styles */
+.banner-title{
+    font-weight: bold;
+    font-size: 45px;
+}
+.banner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 200px 164px 200px;
+}
+/* Main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+        <img class="banner-profile-pic" src="images/wc-mini.png"> 
+.banner-profile-pic{
+    width: 580px;
+}
+/* section styles */
+.
